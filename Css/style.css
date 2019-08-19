@@ -1,0 +1,156 @@
+/* General Start */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #3e3939;
+    font-family: Montserrat;
+    overflow-x: hidden;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
+/* General End */
+
+/* Header Start */
+#header{
+    width: 100%;
+    height: 50px;
+    display: block;
+    background-color: #505050;
+    position: fixed;
+}
+
+#inner_header{
+    width:1200px;
+    height: 100%;  
+    display: block;
+    margin: 0 auto;
+}
+
+#logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+#logo{
+    padding-top: 3px;
+}
+
+#navigation{
+    float: left;
+    height: 100%;
+}
+
+#navigation a{
+    height: 100%;
+    font-weight: bold;
+    display: table;
+    float: left;
+    padding-right: 30px;
+}
+
+#navigation a:first-child{
+    padding-left: 50px;
+}
+
+#navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: #fff;
+    font-size: 13px;
+    position: relative;
+    text-decoration: none;
+}
+
+#navigation a li:hover{
+    color: #9a9a9a;
+}
+
+#navigation a li::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#navigation a li:hover::before{
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+#external{
+    float: right;
+    height: 100%;
+}
+
+#external a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding-right: 25px;
+}
+
+#external a:last-child{
+    padding-right: 0;
+}
+
+#external a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+/* Header End */
+
+/* Overview Start */
+.header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.container{
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+/* Overview End */
+
+/* Footer Start */
+#footer{
+    width: 100%;
+    height: 125px;
+    background: #171821;
+    text-align: center;
+}
+
+#footer p{
+    color: #838573;
+    padding: 50px;
+}
+
+#footer p span{
+    color: #fff;
+}
+/* Footer End */
