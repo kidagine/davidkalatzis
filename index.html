@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>David Kalatzis</title>
+    <title>David Kalatzis portfolio</title>
+    <link rel="icon" href="Resources/Images/SiteIcon.png" sizes="16x16">
     <link rel="stylesheet" type="text/css" href="Css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,600,700&display=swap" rel="stylesheet">
 </head>
-<body>
     <div id="header">
         <div id="inner_header">
             <div id="logo_container">
@@ -12,7 +13,7 @@
             </div>
 
             <ul id="navigation">
-                <a href="#"><li>SKILLS</li></a>
+                <a href="#TEST"><li>SKILLS</li></a>
                 <a href="#"><li>PROJECTS</li></a>
                 <a href="#"><li>CONTACT</li></a>
             </ul>
@@ -25,18 +26,34 @@
     </div>
 
     <header class="overview container">
-        <div class="fullscreen_videowrap">
-                <video src='Resources/Videos/OverviewVideo.mp4' autoplay=true loop=true muted=true></video>
+        <div class="fullscreen-video-wrap">
+          <video src="Resources/Videos/test.mp4" autoplay="true" loop="true" muted="true"></video>
         </div>
-        <div class="overview-overlay"></div>
-        <div class="oveview-content">
-            <h1>David Kalatzis</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores voluptates blanditiis facilis officiis dignissimos tenetur, voluptatem quis commodi dolor vitae.</p>
+        <div class="header-overlay"></div>
+        <div class="header-content text-md-center">
+            <img src="Resources/Images/MyFace.png" alt="Smiley face" height="155" width="150">
+            <h1>David Kalatzis<span>.</span></h1>
+            <div class="box">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, voluptas amet laborum quaerat quia vero, delectus veniam et dolorem quo error molestias quidem quibusdam. Corporis consequatur quibusdam, animi excepturi eaque modi quis repellendus quasi. Assumenda aut dolor eos exercitationem cum?   </p>
+            </div>
+            <ul class="overview_external">
+                <a href="https://github.com/kidagine" target="_blank"><li><img src='Resources/Images/GithubLogo.png' width="32" height="32" onmouseover="this.src='Resources/Images/GithubLogoPink.png'" onmouseout="this.src='Resources/Images/GithubLogo.png'"></li></a>
+                <a href="https://www.linkedin.com/in/david-kalatzis-162618191/" target="_blank"><li><img src="Resources/Images/LinkedinLogo.png" width="32" height="32" onmouseover="this.src='Resources/Images/LinkedinLogoPink.png'" onmouseout="this.src='Resources/Images/LinkedinLogo.png'"></li></a>
+            </ul>
         </div>
-    </header>
+      </header>
+
+    <section class="skills container">
+            <div class="skills-box">
+                    <p>Languages: C#, Java, JavaScript, HTML, CSS <br /> Frameworks + Libraries: React, Angular, Node.js, Bootstrap <br /> Version control: Git/GitHub <br /> Design tools: Photoshop, After effects</p>
+            </div>
+            <section id="TEST"></section>
+    </section>
 
     <div id="footer">
         <p>&copy; 2019 David Kalatzis portfolio | Made by <span>David Kalatzis</span></p>
     </div>
+
+    <script src="main.js"> </script>
 </body>
 </html>
