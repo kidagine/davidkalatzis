@@ -217,26 +217,282 @@ body{
 /* Overview End */
 
 /* Skills Start */
-.skills{
-    align-items:center;
-    color:#fff;
-    height: 500px;
-    width: 950px;
-    margin: auto;
-    padding-top: 50px;
-    background: transparent;
-}
-
-.skills-box{
-    height: 450px;
-    padding-right: 50px;
-    padding-left: 50px;
-    background: #000;
-    opacity: 0.95;
-    border-radius: 8px;
+#skills-form{
+    background-color: #505050;
+    border-top: 3px solid #8b868c;
+    width:950px;
+    height:620px;
+    margin: 0 auto;
+    border-radius:5px;
+    margin-bottom: 5%;
+    -webkit-border-radius:3px;
+    background-size:25px 25px;
+    -moz-border-radius:3px;
     box-shadow: 0 5px 5px #363233
 }
+#skills-form h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.input{
+    margin-bottom:5%;
+}
+
+#name, #email,#submit{
+    font-family: 'Montserrat';
+    font-size:1.4em;  
+    width:90%;
+    margin-left: 5%;
+    height:55px;
+    border:none;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+}
+
+#submit{
+    background-color: #373737;
+    color: #fff;
+    width:90%;
+}
+
+#submit:hover{
+    background-color: #e4007c;
+    color: #fff;
+}
+
+textarea{
+    font-family: 'Montserrat';
+    margin-left: 5%;
+    font-size:1.4em;
+    color:black;
+    height:225px;
+    width:90%;
+    border:none;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+}
+
+.input:focus{
+    outline: none;
+}
+
+@media screen and (max-width:350px){
+    #skills-form{
+        width:90%;
+        height:390px;
+        margin-left:auto;
+        padding:2% 3% 0 3%;
+        float:left;
+    }
+
+    #name,#email,#submit{
+        font-size:.9em;
+        height:41.25px;
+    }
+
+    .input{
+        margin-bottom:2%;
+    }
+
+    textarea{
+        height:168.75;
+        font-size:.9em;
+    }
+}
 /* Skills End */
+
+/* Projects Start */
+#projects-form{
+    background-color: #505050;
+    border-top: 3px solid #8b868c;
+    width:950px;
+    height:620px;
+    margin: 0 auto;
+    border-radius:5px;
+    margin-bottom: 5%;
+    -webkit-border-radius:3px;
+    background-size:25px 25px;
+    -moz-border-radius:3px;
+    box-shadow: 0 5px 5px #363233
+}
+#projects-form h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.input{
+    margin-bottom:5%;
+}
+
+#name, #email,#submit{
+    font-family: 'Montserrat';
+    font-size:1.4em;  
+    width:90%;
+    margin-left: 5%;
+    height:55px;
+    border:none;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+}
+
+#submit{
+    background-color: #373737;
+    color: #fff;
+    width:90%;
+}
+
+#submit:hover{
+    background-color: #e4007c;
+    color: #fff;
+}
+
+textarea{
+    font-family: 'Montserrat';
+    margin-left: 5%;
+    font-size:1.4em;
+    color:black;
+    height:225px;
+    width:90%;
+    border:none;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+}
+
+.input:focus{
+    outline: none;
+}
+
+@media screen and (max-width:350px){
+    #projects-form{
+        width:90%;
+        height:390px;
+        margin-left:auto;
+        padding:2% 3% 0 3%;
+        float:left;
+    }
+
+    #name,#email,#submit{
+        font-size:.9em;
+        height:41.25px;
+    }
+
+    .input{
+        margin-bottom:2%;
+    }
+
+    textarea{
+        height:168.75;
+        font-size:.9em;
+    }
+}
+/* Projects End */
+
+/* Contact Start */
+
+#contact-form{
+    background-color: #505050;
+    border-top: 3px solid #8b868c;
+    width:950px;
+    height:620px;
+    margin: 0 auto;
+    border-radius:5px;
+    margin-bottom: 5%;
+    -webkit-border-radius:3px;
+    background-size:25px 25px;
+    -moz-border-radius:3px;
+    box-shadow: 0 5px 5px #363233
+}
+#contact-form h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.input{
+    margin-bottom:5%;
+}
+
+#name, #email,#submit{
+    font-family: 'Montserrat';
+    font-size:1.4em;  
+    width:90%;
+    margin-left: 5%;
+    height:55px;
+    border:none;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+}
+
+#submit{
+    background-color: #373737;
+    color: #fff;
+    width:90%;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+#submit:hover{
+    background-color: #e4007c;
+    color: #fff;
+    cursor: pointer;    
+}
+
+textarea{
+    font-family: 'Montserrat';
+    margin-left: 5%;
+    font-size:1.4em;
+    color:black;
+    height:225px;
+    width:90%;
+    border:none;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+}
+
+.input:focus{
+    outline: none;
+}
+
+@media screen and (max-width:350px){
+    #contact-form{
+        width:90%;
+        height:390px;
+        margin-left:auto;
+        padding:2% 3% 0 3%;
+        float:left;
+    }
+
+    #name,#email,#submit{
+        font-size:.9em;
+        height:41.25px;
+    }
+
+    .input{
+        margin-bottom:2%;
+    }
+
+    textarea{
+        height:168.75;
+        font-size:.9em;
+    }
+}
+
+/* Contact End */
 
 /* Footer Start */
 #footer{

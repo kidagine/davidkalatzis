@@ -6,18 +6,18 @@
     <link rel="stylesheet" type="text/css" href="Css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,600,700&display=swap" rel="stylesheet">
 </head>
+
+    <!-- Navbar -->
     <div id="header">
         <div id="inner_header">
             <div id="logo_container">
                 <img id="logo" src="Resources/Images/SiteLogo.png">
             </div>
-
             <ul id="navigation">
-                <a href="#TEST"><li>SKILLS</li></a>
-                <a href="#"><li>PROJECTS</li></a>
-                <a href="#"><li>CONTACT</li></a>
+                <a href="#skills"><li>SKILLS</li></a>
+                <a href="#projects"><li>PROJECTS</li></a>
+                <a href="#contact"><li>CONTACT</li></a>
             </ul>
-
             <ul id="external">
                 <a href="https://github.com/kidagine" target="_blank"><li><img src='Resources/Images/GithubLogo.png' width="32" height="32" onmouseover="this.src='Resources/Images/GithubLogoHover.png'" onmouseout="this.src='Resources/Images/GithubLogo.png'"></li></a>
                 <a href="https://www.linkedin.com/in/david-kalatzis-162618191/" target="_blank"><li><img src="Resources/Images/LinkedinLogo.png" width="32" height="32" onmouseover="this.src='Resources/Images/LinkedinLogoHover.png'" onmouseout="this.src='Resources/Images/LinkedinLogo.png'"></li></a>
@@ -25,6 +25,7 @@
         </div>
     </div>
 
+    <!-- Overview -->
     <header class="overview container">
         <div class="fullscreen-video-wrap">
           <video src="Resources/Videos/test.mp4" autoplay="true" loop="true" muted="true"></video>
@@ -41,19 +42,60 @@
                 <a href="https://www.linkedin.com/in/david-kalatzis-162618191/" target="_blank"><li><img src="Resources/Images/LinkedinLogo.png" width="32" height="32" onmouseover="this.src='Resources/Images/LinkedinLogoPink.png'" onmouseout="this.src='Resources/Images/LinkedinLogo.png'"></li></a>
             </ul>
         </div>
-      </header>
+    </header>
 
-    <section class="skills container">
-            <div class="skills-box">
-                    <p>Languages: C#, Java, JavaScript, HTML, CSS <br /> Frameworks + Libraries: React, Angular, Node.js, Bootstrap <br /> Version control: Git/GitHub <br /> Design tools: Photoshop, After effects</p>
-            </div>
-            <section id="TEST"></section>
-    </section>
-
-    <div id="footer">
-        <p>&copy; 2019 David Kalatzis portfolio | Made by <span>David Kalatzis</span></p>
+    <!-- Skills -->
+    <div id="skills">
+        <div id ="skills-form">
+            <form class="form">
+                <h1>Skills</h1>
+                <input name="name" type="text" placeholder="Enter name" class="input" id="name">        
+                <input name="email" type="text" placeholder="Enter email" class="input" id="email">       
+                <textarea name="comment" type="text" placeholder="Enter message" class="input" id="comments"></textarea>  
+                <div class="submit">
+                    <input type="submit" value="submit"id="submit">
+                </div>
+            </form>
+        </div>
     </div>
 
+    <!-- Projects -->
+    <div id="projects">
+        <div id ="projects-form">
+            <form class="form">
+                <h1>Projects</h1>
+                <input name="name" type="text" placeholder="Enter name" class="input" id="name">        
+                <input name="email" type="text" placeholder="Enter email" class="input" id="email">       
+                <textarea name="comment" type="text" placeholder="Enter message" class="input" id="comments"></textarea>  
+                <div class="submit">
+                    <input type="submit" value="submit"id="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div id ="contact-form">
+            <form class="form">
+                <h1>Contact</h1>
+                <input name="name" type="text" placeholder="Enter name" class="input" id="name">        
+                <input name="email" type="text" placeholder="Enter email" class="input" id="email">       
+                <textarea name="comment" type="text" placeholder="Enter message" class="input" id="comments"></textarea>  
+                <div class="submit">
+                  <input type="submit" value="submit"id="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p>&copy; 2019 David Kalatzis portfolio | Made by <span>David Kalatzis</span></p>
+    </footer>
+
+    <!-- Scripts -->
     <script src="main.js"> </script>
+
 </body>
 </html>
