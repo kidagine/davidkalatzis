@@ -11,7 +11,7 @@ html{
 }
 
 body{
-    background-color: #3e3838;
+    background-color: #f64a5a ;
     font-family: 'Montserrat';
     overflow-x: hidden;
 }
@@ -308,23 +308,57 @@ textarea{
 
 /* Projects Start */
 #projects-form{
-    background-color: #505050;
-    border-top: 3px solid #8b868c;
+    background-color: #3e3939;
+    border-top: 3px solid #888994;
     width:950px;
-    height:620px;
+    height:1600px;
     margin: 0 auto;
-    border-radius:5px;
     margin-bottom: 5%;
-    -webkit-border-radius:3px;
     background-size:25px 25px;
-    -moz-border-radius:3px;
-    box-shadow: 0 5px 5px #363233
 }
 #projects-form h1{
     color: #fff;
     text-align: center;
     margin-bottom: 20px;
     margin-top: 5px;
+}
+
+.box-right {
+	width: 46.5%;
+	float:right;
+	margin-right: 2%;
+}
+
+.box-left {
+	width: 46.5%;
+	float:left;
+	margin-left: 2%;
+}
+
+.row5 .box-right, .row5 .box-left {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5%;
+    border-radius:5px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+	height: 430px;
+    background-color: #505050;
+    margin-bottom: 3%;
+    box-shadow: 0 5px 5px #363233
+}
+
+.row5 p{
+    padding-top: 5%;
+    padding-left: 5%;
+    color: #fff;
+    display:flex;
+    color:#fff;
+}
+
+.row5 p:hover{
+    color: #9a9a9a;
 }
 
 .input{
@@ -341,17 +375,6 @@ textarea{
     border-radius:3px;
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
-}
-
-#submit{
-    background-color: #373737;
-    color: #fff;
-    width:90%;
-}
-
-#submit:hover{
-    background-color: #e4007c;
-    color: #fff;
 }
 
 textarea{
