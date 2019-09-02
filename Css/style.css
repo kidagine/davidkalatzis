@@ -11,7 +11,7 @@ html{
 }
 
 body{
-    background-color: #f64a5a ;
+    background-color: rgb(20, 20, 20);
     font-family: 'Montserrat';
     overflow-x: hidden;
 }
@@ -218,17 +218,14 @@ body{
 
 /* Skills Start */
 #skills-form{
-    background-color: #505050;
-    border-top: 3px solid #8b868c;
+    background-color: #3e3939;
+    border-top: 3px solid #888994;
     width:950px;
     height:620px;
     margin: 0 auto;
-    border-radius:5px;
+    margin-top: 5%;
     margin-bottom: 5%;
-    -webkit-border-radius:3px;
     background-size:25px 25px;
-    -moz-border-radius:3px;
-    box-shadow: 0 5px 5px #363233
 }
 #skills-form h1{
     color: #fff;
@@ -251,17 +248,6 @@ body{
     border-radius:3px;
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
-}
-
-#submit{
-    background-color: #373737;
-    color: #fff;
-    width:90%;
-}
-
-#submit:hover{
-    background-color: #e4007c;
-    color: #fff;
 }
 
 textarea{
@@ -318,9 +304,9 @@ textarea{
 }
 #projects-form h1{
     color: #fff;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 5px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .box-right {
@@ -336,6 +322,7 @@ textarea{
 }
 
 .row5 .box-right, .row5 .box-left {
+    position: relative;
     font-family: 'Montserrat';
     font-weight: bold;
     font-size: 18px;
@@ -349,7 +336,101 @@ textarea{
     box-shadow: 0 5px 5px #363233
 }
 
-.row5 p{
+.row5 p.Unity{
+    background-color: #fff;
+    position: absolute;
+    font-size: 13px;
+    width: 12%;
+    height: 5%;
+    padding-left: 2%;
+    padding-top: 1.2%;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    top: 225px;
+    left: 16px;
+}
+
+.row5 p.Java{
+    background-color: #ec2025;
+    color: #fff;
+    position: absolute;
+    font-size: 13px;
+    width: 10%;
+    height: 5%;
+    padding-left: 2%;
+    padding-top: 1.2%;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    top: 225px;
+    left: 16px;
+}
+
+.row5 p.CSS{
+    background-color: #264de4;
+    color: #fff;
+    position: absolute;
+    font-size: 13px;
+    width: 8%;
+    height: 5%;
+    padding-left: 2%;
+    padding-top: 1.2%;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    top: 225px;
+    left: 75px;
+}
+
+.row5 p.NodeJS{
+    background-color: #80BD00;
+    position: absolute;
+    font-size: 13px;
+    width: 16%;
+    height: 5%;
+    padding-left: 2%;
+    padding-top: 1.2%;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    top: 225px;
+    left: 16px;
+}
+
+.row5 p.CS{
+    background-color: #68217A;
+    color: #fff;
+    position: absolute;
+    font-size: 13px;
+    width: 7%;
+    height: 5%;
+    padding-left: 2%;
+    padding-top: 1.2%;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    top: 225px;
+    left: 85px;
+}
+
+.row5 p.JS{
+    background-color: #F5DD19;
+    color: #000;
+    position: absolute;
+    font-size: 13px;
+    width: 6%;
+    height: 5%;
+    padding-left: 2%;
+    padding-top: 1.2%;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    top: 225px;
+    left: 105px;
+}
+
+.row5 p.MainParagraph{
     padding-top: 5%;
     padding-left: 5%;
     color: #fff;
@@ -357,7 +438,17 @@ textarea{
     color:#fff;
 }
 
-.row5 p:hover{
+.row5 p.SubParagraph{
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 5%;
+    padding-left: 5%;
+    color: #fff;
+    display:flex;
+    color:#fff;
+}
+
+.row5 p.MainParagraph:hover{
     color: #9a9a9a;
 }
 
@@ -422,17 +513,13 @@ textarea{
 /* Contact Start */
 
 #contact-form{
-    background-color: #505050;
-    border-top: 3px solid #8b868c;
+    background-color: #3e3939;
+    border-top: 3px solid #888994;
     width:950px;
     height:620px;
     margin: 0 auto;
-    border-radius:5px;
     margin-bottom: 5%;
-    -webkit-border-radius:3px;
     background-size:25px 25px;
-    -moz-border-radius:3px;
-    box-shadow: 0 5px 5px #363233
 }
 #contact-form h1{
     color: #fff;
@@ -447,6 +534,7 @@ textarea{
 
 #name, #email,#submit{
     font-family: 'Montserrat';
+    box-shadow: 0 5px 5px #363233;
     font-size:1.4em;  
     width:90%;
     margin-left: 5%;
@@ -458,7 +546,7 @@ textarea{
 }
 
 #submit{
-    background-color: #373737;
+    background-color: #1d1d1d;
     color: #fff;
     width:90%;
     -o-transition:.5s;
@@ -476,6 +564,7 @@ textarea{
 
 textarea{
     font-family: 'Montserrat';
+    box-shadow: 0 5px 5px #363233;
     margin-left: 5%;
     font-size:1.4em;
     color:black;
