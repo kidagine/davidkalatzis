@@ -225,9 +225,20 @@ body{
 /* Overview End */
 
 /* Skills Start */
+.containerZ {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
 #skills-form{
-    background-color: #3e3939;
-    border-top:  3px solid #888994;
+    background-color: #000;
+    border-top:  3px solid #fff;
     width:950px;
     height:620px;
     margin: 0 auto;
@@ -248,7 +259,7 @@ body{
     background-color: #000;
     border-top: 3px solid #fff;
     width:950px;
-    height:1600px;
+    height:2240px;
     margin: 0 auto;
     margin-bottom: 5%;
     background-size:25px 25px;
@@ -284,7 +295,7 @@ body{
 	height: 430px;
     background-color: #000;
     margin-bottom: 3%;
-    box-shadow: 2px 5px 10px 2px rgba(35, 35, 35, 0.6);
+    box-shadow: 2px 2px 5px 2px rgb(8, 8, 8);
 }
 
 .row5 p.Unity{
@@ -444,7 +455,7 @@ body{
     height:330px;
     margin: 0 auto;
     margin-bottom: 15%;
-    margin-top: 30%;
+    margin-top: 10%;
     background-size:25px 25px;
 }
 #contact-form h1{
