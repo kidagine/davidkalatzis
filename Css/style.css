@@ -135,10 +135,7 @@ body{
     display:flex;
     align-items:center;
     color:#fff;
-}
-
-.overview h1 span{
-    color: #e4007c;
+    font-weight: 200;
 }
   
 .container{
@@ -154,7 +151,7 @@ body{
     padding-right: 50px;
     padding-left: 50px;
     background: #000;
-    border: 3px solid #fff;
+    border: 1px solid #fff;
     opacity: 0.95;
 }
   
@@ -191,6 +188,7 @@ body{
 .header-content h1{
     font-size:50px;
     margin-bottom:30px;
+    font-weight: 100;
 }
   
 .header-content p{
@@ -225,32 +223,79 @@ body{
 /* Overview End */
 
 /* Skills Start */
-.containerZ {
+
+.skill-label{
+    color: #fff;
+    font-weight: 200;
+    font-family: 'Montserrat';
+    margin-bottom: 2%;
+    padding-top: 20%;
+}
+
+.skill-container {
+    margin:auto;
     width: 100%;
-    background-color: #ddd;
+    background-color: rgb(37, 37, 37);
   }
   
+  .cs{
+    width: 80%; 
+  }
+  .java{
+    width: 70%; 
+  }
+  .js{
+    width: 50%; 
+  }
+  .ts{
+    width: 45%; 
+  }
+  .angular{
+    width: 50%; 
+  }
+  .css{
+    width: 60%; 
+  }
+  .html{
+    width: 50%;
+  }
+  .vue{
+    width: 20%;
+  }
+  .unity{
+    width: 80%;
+  }
+
   .skills {
     text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: #000;
+    background-color: #fff;
   }
 #skills-form{
     background-color: #000;
-    border-top:  3px solid #fff;
+    border-top: 2px solid #fff;
     width:950px;
-    height:620px;
+    height:780px;
     margin: 0 auto;
     margin-top: 5%;
     margin-bottom: 5%;
     background-size:25px 25px;
 }
 #skills-form h1{
+    font-family: 'Montserrat';
     color: #fff;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 5px;
+    text-align: left;
+    font-weight: 200;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+@media(max-width:960px){
+    .skill-container{
+        padding-right:3rem;
+        padding-left:3rem;
+    }
 }
 /* Skills End */
 
@@ -266,6 +311,7 @@ body{
 }
 #projects-form h1{
     color: #fff;
+    font-weight: 200;
     text-align: left;
     margin-left: 20px;
     margin-top: 20px;
@@ -295,7 +341,7 @@ body{
 	height: 430px;
     background-color: #000;
     margin-bottom: 3%;
-    box-shadow: 2px 2px 5px 2px rgb(8, 8, 8);
+    box-shadow: 2px 2px 5px 2px rgb(14, 14, 14);
 }
 
 .row5 p.Unity{
@@ -566,7 +612,7 @@ textarea{
 #footer{
     width: 100%;
     height: 125px;
-    background: #171821;
+    color: #000;
     text-align: center;
 }
 
