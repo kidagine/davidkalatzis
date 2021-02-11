@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>David Kalatzis</title>
     <link rel="icon" href="Resources/Images/KiddoLogo.svg" sizes="16x16">
@@ -7,205 +8,183 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,600,700&display=swap" rel="stylesheet">
 </head>
 
-    <!-- Navbar -->
-    <div id="navbar">
-        <div id="inner-navbar">
-            <div id="inner-navbar-top">
-                <img src="Resources/Images/KiddoLogo.svg" width="32" height="32">
+<!-- Navbar -->
+<div id="navbar">
+    <div id="inner-navbar">
+        <div id="inner-navbar-top">
+            <img src="Resources/Images/KiddoLogo.svg" width="32" height="32">
+        </div>
+        <div id="inner-navbar-middle">
+            <div id="navbar-item">
+                <a id="navbar-item-image" href="#about">
+                    <li><img src="Resources/Images/AboutIcon.svg" width="32" height="32"
+                            onmouseover="this.src='Resources/Images/AboutIconHover.svg'"
+                            onmouseout="this.src='Resources/Images/AboutIcon.svg'"></li>
+                </a>
+                <label id="navbar-item-label">About</label>
             </div>
-            <div id="inner-navbar-middle">
-                <div id="navbar-item">
-                    <a id="navbar-item-image" href="#about"><li><img src="Resources/Images/AboutIcon.svg" width="32" height="32" onmouseover="this.src='Resources/Images/AboutIconHover.svg'" onmouseout="this.src='Resources/Images/AboutIcon.svg'"></li></a>
-                    <label id="navbar-item-label">About</label>
-                </div>        
-                <div id="navbar-item">
-                    <a id="navbar-item-image" href="#skills"><li><img src="Resources/Images/SkillsIcon.svg" width="32" height="32" onmouseover="this.src='Resources/Images/SkillsIconHover.svg'" onmouseout="this.src='Resources/Images/SkillsIcon.svg'"></li></a>
-                    <label id="navbar-item-label">Skills</label>
-                </div>               
-                 <div id="navbar-item">
-                    <a id="navbar-item-image" href="#projects"><li><img src="Resources/Images/ProjectsIcon.svg" width="32" height="32" onmouseover="this.src='Resources/Images/ProjectsIconHover.svg'" onmouseout="this.src='Resources/Images/ProjectsIcon.svg'"></li></a>
-                    <label id="navbar-item-label">Projects</label>
-                </div>                
-                <div id="navbar-item">
-                    <a id="navbar-item-image" href="#contact"><li><img src="Resources/Images/MailIcon.svg" width="32" height="32" onmouseover="this.src='Resources/Images/MailIconHover.svg'" onmouseout="this.src='Resources/Images/MailIcon.svg'"></li></a>
-                    <label id="navbar-item-label">Contact</label>
-                </div>
+            <div id="navbar-item">
+                <a id="navbar-item-image" href="#skills">
+                    <li><img src="Resources/Images/SkillsIcon.svg" width="32" height="32"
+                            onmouseover="this.src='Resources/Images/SkillsIconHover.svg'"
+                            onmouseout="this.src='Resources/Images/SkillsIcon.svg'"></li>
+                </a>
+                <label id="navbar-item-label">Skills</label>
             </div>
-            <div id="inner-navbar-bottom">
-                <div id="navbar-item">
-                    <a id="navbar-item-image" href="https://github.com/kidagine" target="_blank"><li><img src='Resources/Images/GithubLogo.svg' width="32" height="32" onmouseover="this.src='Resources/Images/GithubLogoHover.svg'" onmouseout="this.src='Resources/Images/GithubLogo.svg'"></li></a>
+            <div id="navbar-item">
+                <a id="navbar-item-image" href="#projects">
+                    <li><img src="Resources/Images/ProjectsIcon.svg" width="32" height="32"
+                            onmouseover="this.src='Resources/Images/ProjectsIconHover.svg'"
+                            onmouseout="this.src='Resources/Images/ProjectsIcon.svg'"></li>
+                </a>
+                <label id="navbar-item-label">Projects</label>
+            </div>
+            <div id="navbar-item">
+                <a id="navbar-item-image" href="#footer">
+                    <li><img src="Resources/Images/MailIcon.svg" width="32" height="32"
+                            onmouseover="this.src='Resources/Images/MailIconHover.svg'"
+                            onmouseout="this.src='Resources/Images/MailIcon.svg'"></li>
+                </a>
+                <label id="navbar-item-label">Contact</label>
+            </div>
+        </div>
+        <div id="inner-navbar-bottom">
+            <div id="navbar-item">
+                <a id="navbar-item-image" href="https://github.com/kidagine" target="_blank">
+                    <li><img src='Resources/Images/GithubLogo.svg' width="32" height="32"
+                            onmouseover="this.src='Resources/Images/GithubLogoHover.svg'"
+                            onmouseout="this.src='Resources/Images/GithubLogo.svg'"></li>
+                </a>
+            </div>
+            <div id="navbar-item">
+                <a id="navbar-item-image" href="https://www.linkedin.com/in/david-kalatzis-162618191/" target="_blank">
+                    <li><img src="Resources/Images/LinkedinLogo.svg" width="32" height="32"
+                            onmouseover="this.src='Resources/Images/LinkedinLogoHover.svg'"
+                            onmouseout="this.src='Resources/Images/LinkedinLogo.svg'"></li>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Video -->
+<div class="fullscreen-video-wrap">
+    <video src="Resources/Videos/test.mp4" autoplay="true" loop="true" muted="true"></video>
+</div>
+
+<!-- Overview -->
+<div id="about">
+    <div id="about-inner">
+        <div id="about-top">
+            <img src="Resources/Images/AboutIconHover.svg" width="48" height="48">
+            <p id="about-title">About</p>
+        </div>
+        <div id="about-bottom">
+            <div id="about-bottom-details">
+                <p>I'm <span>David Kalatzis</span>, a passionat <br> professional gameplay and tools<br> engineer who
+                    loves to design and<br> develop game-focused applications.
+                </p>
+            </div>
+            <div id="about-bottom-image">
+                <img src="Resources/Images/MyFace.png" alt="Smiley face" height="210" width="210">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Skills -->
+<div id="skills">
+    <div id="about-inner">
+        <div id="about-top">
+            <img src="Resources/Images/SkillsIconHover.svg" width="48" height="48">
+            <p id="about-title">Skills & Experiences</p>
+        </div>
+        <div id="skills-bottom">
+            <div id="skills-bottom-details">
+                <p>
+                    I enjoy creating things that live on the internet, whether that be websites, applications, or
+                    anything in between. My goal is to always build products that provide pixel-perfect, performant
+                    experiences.<br>
+                    <br>
+                    Shortly after graduating from Northeastern University, I joined the engineering team at Upstatement
+                    where I work on a wide variety of interesting and meaningful projects on a daily basis. <br><br>
+                    Here are a few technologies I've been working with recently:
+                </p>
+            </div>
+            <div id="skills-bottom-table">
+                <div id="skills-bottom-row">
+                    <label class="skills-main-label">Language</label>
+                    <label class="skills-sub-label">C#</label>
+                    <label class="skills-sub-label">Java</label>
+                    <label class="skills-sub-label">Javascript</label>
+                    <label class="skills-sub-label">Html</label>
+                    <label class="skills-sub-label">css</label>
                 </div>
-                <div id="navbar-item">
-                    <a id="navbar-item-image" href="https://www.linkedin.com/in/david-kalatzis-162618191/" target="_blank"><li><img src="Resources/Images/LinkedinLogo.svg" width="32" height="32" onmouseover="this.src='Resources/Images/LinkedinLogoHover.svg'" onmouseout="this.src='Resources/Images/LinkedinLogo.svg'"></li></a>
+                <div id="skills-bottom-row">
+                    <label class="skills-main-label">Engines/Frameworks</label>
+                    <label class="skills-sub-label">Unity</label>
+                    <label class="skills-sub-label">Unreal Engine</label>
+                    <label class="skills-sub-label">Game Maker Studio</label>
+                    <label class="skills-sub-label">React</label>
+                    <label class="skills-sub-label">Angular</label>
+                    <label class="skills-sub-label">Node.js</label>
+                </div>
+                <div id="skills-bottom-row">
+                    <label class="skills-main-label">Tools</label>
+                    <label class="skills-sub-label">test</label>
+                    <label class="skills-sub-label">test</label>
+                </div>
+                <div id="skills-bottom-row">
+                    <label class="skills-main-label">Fields</label>
+                    <label class="skills-sub-label">test</label>
+                    <label class="skills-sub-label">test</label>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Video -->
-    <div class="fullscreen-video-wrap">
-        <video src="Resources/Videos/test.mp4" autoplay="true" loop="true" muted="true"></video>
-    </div>
-
-    <!-- Overview -->
-    <div id="about">
-        <div id="about-inner">
-            <div id="about-top">
-                <img src="Resources/Images/AboutIconHover.svg" width="48" height="48">
-                <p id="about-title">About</p>
+</div>
+<!-- Projects -->
+<div id="projects">
+    <div id="about-inner">
+        <div id="about-top">
+            <img src="Resources/Images/ProjectsIconHover.svg" width="48" height="48">
+            <p id="about-title">Projects</p>
+        </div>
+        <div id="about-bottom">
+            <div id="about-bottom-details">
+                <p>I'm <span>David Kalatzis</span>, a passionat <br> professional gameplay and tools<br> engineer who
+                    loves to design and<br> develop game-focused applications.
+                </p>
             </div>
-            <div id="about-bottom">
-                <div id="about-bottom-details">
-                    <p>I'm <span>David Kalatzis</span>, a passionat <br> professional gameplay and tools<br> engineer who loves to design and<br> develop game-focused applications.
-                    </p>
-                </div>
-                <div id="about-bottom-image">
-                    <img src="Resources/Images/MyFace.png" alt="Smiley face" height="210" width="210">
-                </div>
+            <div id="about-bottom-image">
+                <img src="Resources/Images/MyFace.png" alt="Smiley face" height="210" width="210">
             </div>
         </div>
     </div>
-    <!-- Skills -->
-    <div id="about">
-        <div id="about-inner">
-            <div id="about-top">
-                <img src="Resources/Images/SkillsIconHover.svg" width="48" height="48">
-                <p id="about-title">Skills & Experiences</p>
-            </div>
-            <div id="about-bottom">
-                <div id="about-bottom-details">
-                    <p>I'm <span>David Kalatzis</span>, a passionat <br> professional gameplay and tools<br> engineer who loves to design and<br> develop game-focused applications.
-                    </p>
-                </div>
-                <div id="about-bottom-image">
-                    <img src="Resources/Images/MyFace.png" alt="Smiley face" height="210" width="210">
-                </div>
-            </div>
+</div>
+<!-- Contact -->
+<div id="contact">
+    <div id="contact-inner">
+        <div id="contact-top">
+            <img src="Resources/Images/MailIconHover.svg" width="48" height="48">
+            <p id="contact-title">Contact</p>
+        </div>
+        <div id="contact-bottom">
+            <label>Have a question or want to work together?</label>
+            <a href="mailto:davidkalatzis@gmail.com" id="navbar-item-image submit"
+                href="https://www.linkedin.com/in/david-kalatzis-162618191/" target="_blank">
+                <li><img src="Resources/Images/ContactButton.svg"
+                        onmousedown="this.src='Resources/Images/ContactButtonHover.svg'"
+                        onmouseout="this.src='Resources/Images/ContactButton.svg'"></li>
+            </a>
         </div>
     </div>
-    <!-- <div id="skills">
-        <div id ="skills-form">
-            <form class="form">
-                <h1>Skills</h1>
-                <label>Languages</label>
-                <div style="text-align: center; margin-top: 5%;">
-                    <label style="color: #fff; text-decoration: underline #fff; margin-top: 5%;"> Languages</label>
-                </div>
-                <div style="padding-top:3%">
-                    <label class="skill-label" >C# 80%</label>
-                    <div class="skill-container">
-                        <div class="skills cs"></div>
-                    </div>
-                </div>
-                <div style="padding-top:3%">
-                    <label class="skill-label" >Java 65%</label>
-                    <div class="skill-container">
-                        <div class="skills java"></div>
-                    </div>
-                </div>
-                <div style="padding-top:3%">
-                    <label class="skill-label" >JavaScript 40%</label>
-                    <div class="skill-container">
-                        <div class="skills js"></div>
-                    </div>
-                </div>
-                <div style="padding-top:3%">
-                    <label class="skill-label" >TypeScript 30%</label>
-                    <div class="skill-container">
-                        <div class="skills ts"></div>
-                    </div>
-                </div>
-                <div style="padding-top:3%">
-                    <label class="skill-label" >CSS 60%</label>
-                    <div class="skill-container">
-                        <div class="skills css"></div>
-                    </div>
-                </div>
-                <div style="padding-top:3%">
-                    <label class="skill-label" >HTML 40%</label>
-                    <div class="skill-container">
-                        <div class="skills html"></div>
-                    </div>
-                </div>
-                <div style="text-align: center; margin-top: 5%;">
-                    <label style="color: #fff; text-decoration: underline #fff; margin-top: 5%;"> Engines/Frameworks</label>
-                </div>
-                <div style="padding-top:3%">
-                    <label class="skill-label" >Unity 80%</label>
-                    <div class="skill-container">
-                        <div class="skills unity"></div>
-                    </div>
-                </div>
-                <div style="padding-top:3%">
-                    <label class="skill-label" >Vue 20%</label>
-                    <div class="skill-container">
-                        <div class="skills vue"></div>
-                    </div>
-                </div>
-                <div style="padding-top:3%">
-                    <label class="skill-label" >Angular 50%</label>
-                    <div class="skill-container">
-                        <div class="skills angular"></div>
-                    </div>
-                </div>
-                <div style="padding-top:3%">
-                    <label class="skill-label" >.NET 50%</label>
-                    <div class="skill-container">
-                        <div class="skills angular"></div>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div> -->
-
-    <!-- Projects -->
-    <div id="projects">
-        <div id ="projects-form">
-            <form class="form">
-                <h1>Projects</h1>
-                <div class="row">
-                    <div class="row5">
-                        <div class="box-left"> <a href="https://github.com/Skelly-Co/RUST-Web-Application" target="_blank"><img src="https://i.imgur.com/xT4wy9t.jpg" alt="Smiley face" height="260" width="442"> </a> <p class="Angular">ANGULAR</p> <p class="TS">TS</p> <a href="https://github.com/Skelly-Co/RUST-Web-Application" target="_blank"><p class="MainParagraph">RUST | A unique website in which users can shop for clothing and get a feeling for the company's vision </p><p class="SubParagraph">Made for the RUST fashion company.</p></a></div>
-                        <div class="box-right"> <a href="https://github.com/kidagine/FullBodyAwarenessFPS" target="_blank"><img src="https://i.imgur.com/vFbQDM0.png" alt="Smiley face" height="260" width="442"> </a> <p class="Unity">UNITY</p> <p class="CS">C#</p> <a href="https://github.com/kidagine/FullBodyAwarenessFPS" target="_blank"><p class="MainParagraph">FullBodyAwareness FPS | Unity prototype showcasing an fps controller with full body awareness</p></a> <p class="SubParagraph">Contains an inverse kinematics system for feet and hands.</p></div>
-                    </div>
-                    <div class="row5">
-                        <div class="box-left"> <a href="https://github.com/kidagine/DiscordBotJS" target="_blank"><img src="https://i.imgur.com/JfBcPL9.png" alt="Smiley face" height="260" width="442"> </a> <p class="NodeJS">NODE JS</p> <p class="JS">JS</p> <a href="https://github.com/kidagine/DiscordBotJS" target="_blank"><p class="MainParagraph">Discord Bot | A bot capable of playing music and creating custom commands through chat</p><p class="SubParagraph">Including normal bot functions.</p></a></div>
-                        <div class="box-right"> <a href="https://github.com/kidagine/NESZeldaReplica" target="_blank"><img src="https://i.imgur.com/vWjnkPa.png" alt="Smiley face" height="260" width="442"> </a> <p class="Unity">UNITY</p> <p class="CS">C#</p> <a href="https://github.com/kidagine/NESZeldaReplica" target="_blank"><p class="MainParagraph">Oldschool Top Down | A recreation of the old top down movement and gameplay</p></a> <p class="SubParagraph">Using NES's Zelda as an inspiration.</p></div>
-                    </div>
-                    <div class="row5">
-                        <div class="box-right"> <a href="https://github.com/kidagine/Homeboy-GGJ2019" target="_blank"><img src="https://i.imgur.com/WcFs1UB.png" alt="Smiley face" height="260" width="442"> </a> <p class="Unity">UNITY</p> <p class="CS">C#</p><a href="https://github.com/kidagine/Homeboy-GGJ2019" target="_blank"><p class="MainParagraph">Homeboy | A small 2D top down shooter game made during Global Game Jam 2019.</p></a> <p class="SubParagraph">Made in 48 hours</p></div>
-                        <div class="box-right"> <a href="https://github.com/kidagine/AttendanceAutomationSystem" target="_blank"><img src="https://i.imgur.com/64RaEmR.jpg" alt="Smiley face" height="260" width="442"> </a> <p class="Java">JAVA</p> <p class="CSS">CSS</p> <a href="https://github.com/kidagine/AttendanceAutomationSystem" target="_blank"><p class="MainParagraph">Belman | An application which is designed for tracking the progress of placed orders</p></a> <p class="SubParagraph">Created for the Belman company.</p></div>
-                    </div>
-                    <div class="row5">
-                        <div class="box-left"> <a href="https://github.com/kidagine/MusicPlayerApp" target="_blank"><img src="Resources/Images/MusicPlayer.png" alt="Smiley face" height="260" width="442"> </a> <p class="Java">JAVA</p> <p class="CSS">CSS</p><a href="https://github.com/kidagine/MusicPlayerApp" target="_blank"><p class="MainParagraph">Beatbone | A stylized music player application</p></a><p class="SubParagraph">Contains a variety of behaviours included in music players.</p></div>
-                        <div class="box-right"> <a href="https://github.com/kidagine/MoviePlayerApp" target="_blank"><img src="Resources/Images/MoviePlayer.png" alt="Smiley face" height="260" width="442"> </a> <p class="Java">JAVA</p> <p class="CSS">CSS</p> <a href="https://github.com/kidagine/MoviePlayerApp" target="_blank"><p class="MainParagraph">Bonereel | A movie player application created for categorizing and watching videos </p></a> <p class="SubParagraph">Has the capability of choosing between different media player, or its own.</p></div>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-
-    <!-- Contact -->
-    <div id="about">
-        <div id="about-inner">
-            <div id="about-top">
-                <img src="Resources/Images/MailIconHover.svg" width="48" height="48">
-                <p id="about-title">Contact</p>
-            </div>
-            <div id="contact">
-                <p>Have a question or want to work together?</p>
-                <a href="mailto:davidkalatzis@gmail.com" id="navbar-item-image submit" href="https://www.linkedin.com/in/david-kalatzis-162618191/" target="_blank"><li><img src="Resources/Images/ContactButton.svg" onmouseover="this.src='Resources/Images/ContactButtonHover.svg'" onmouseout="this.src='Resources/Images/ContactButton.svg'"></li></a>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Footer -->
-    <footer id="footer">
-        <p><span>&copy; 2021</span> David Kalatzis</p>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="main.js"> </script>
+</div>
+<!-- Footer -->
+<footer id="footer">
+    <p><span>&copy; 2021</span> David Kalatzis</p>
+</footer>
+<!-- Scripts -->
+<script src="main.js"> </script>
 </body>
+
 </html>
