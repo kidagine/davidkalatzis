@@ -140,6 +140,7 @@ body {
 /* About Start */
 #about {
   height: 100vh;
+  min-width: 1000px;
   display: flex;
   align-items: center;
   color: #fff;
@@ -199,6 +200,7 @@ body {
 /* Skills Start */
 #skills {
   height: 100vh;
+  min-width: 1000px;
   display: flex;
   align-items: center;
   color: #fff;
@@ -279,6 +281,7 @@ body {
 /* Projects Start */
 #projects {
   height: 100vh;
+  min-width: 1000px;
   display: flex;
   align-items: center;
   color: #fff;
@@ -370,6 +373,7 @@ body {
 /* Contact Start */
 #contact {
   height: 100vh;
+  min-width: 1000px;
   display: flex;
   align-items: center;
   color: #fff;
@@ -492,11 +496,27 @@ body {
     height: 32px;
     width: 32px;
   }
+
+  #about-bottom {
+    flex-direction: column-reverse;
+  }
 }
 
 @media (max-width:500px){
   #inner-navbar-middle {
     visibility: hidden;
+  }
+
+  
+}
+
+@media (max-width:650px){
+  #about {
+    font-size: 25px;
+  }
+  
+  #about-bottom {
+    height: 350px;
   }
 }
 
