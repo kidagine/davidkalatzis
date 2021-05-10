@@ -506,16 +506,11 @@ body {
   #inner-navbar-middle {
     visibility: hidden;
   }
-
-  
 }
 
 @media (max-width:650px){
-  #about {
-    font-size: 25px;
-  }
-  
   #about-bottom {
+    font-size: 25px;
     height: 350px;
   }
 }
