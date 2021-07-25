@@ -139,7 +139,7 @@ body {
 /* Navbar End */
 /* About Start */
 #about {
-  height: 100vh;
+  height: 800px;
   min-width: 1000px;
   display: flex;
   align-items: center;
@@ -203,7 +203,7 @@ body {
 
 /* Skills Start */
 #skills {
-  height: 100vh;
+  height: 750px;
   min-width: 1000px;
   display: flex;
   align-items: center;
@@ -284,7 +284,7 @@ body {
 
 /* Projects Start */
 #projects {
-  height: 100vh;
+  height: 800px;
   min-width: 1000px;
   display: flex;
   align-items: center;
@@ -423,7 +423,7 @@ body {
 
 /* Contact Start */
 #contact {
-  height: 100vh;
+  height: 800px;
   min-width: 1000px;
   display: flex;
   align-items: center;
