@@ -17,3 +17,5 @@ $('.barra-nivel').each(function() {
           width: valorLargura
       });
   });
+
+  
