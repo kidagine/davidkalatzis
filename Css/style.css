@@ -559,6 +559,18 @@ body {
   }
 }
 
+@media (max-height:550px){
+  #inner-navbar-middle {
+    visibility: hidden;
+  }
+}
+
+@media (max-height:200px){
+  #inner-navbar-bottom {
+    height: 50px;
+  }
+}
+
 @media (max-width:650px){
   #about-bottom {
     font-size: 25px;
