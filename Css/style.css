@@ -323,6 +323,13 @@ body {
   height: 400px;
 }
 
+#project-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 400px;
+}
+
 #projects-bottom-tabs-first {
   width: 950px;
   height: 400px;
@@ -373,6 +380,7 @@ body {
 #mySlides{
   display: none;
 }
+
 
 #projects-bottom-sub button{
   width: 200px;
