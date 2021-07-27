@@ -406,21 +406,19 @@ body {
   height: 15%; 
    line-height: 55px;
   font-size: 18px;
-  color: #000;
+  color: #000 !important;
   font-weight: bold;
   border-top: 4px solid #000;
 }
 
-#projects-bottom-tabs-right-bottom a:hover {
+#projects-bottom-tabs-right-bottom a {
   font-size: 18px;
   color: #000 !important;
   font-weight: bold;
 }
-#projects-bottom-main{
-  background-color: red;
-}
+
 #projects-bottom-tabs-right-bottom a:visited{
-  color:#000;
+  color:#000 ! important;
 }
 
 #projects-bottom-tabs-right-bottom a:hover {
