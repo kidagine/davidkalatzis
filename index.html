@@ -105,8 +105,11 @@
                 <p>
                     i've been coding since i was 16 developing small games, working everyday developing countless projects and progressing in creating a big game idea.<br>
                     <br>
-                    received an AP degree in computer science and currently closing for a bachelor.<br> i had internships involved with game engines to support film making and others for creatings websites and applications on customer requests. <br> 
-                    and have also worked in freelance projects involving Unity.<br>
+                    -education- <br>
+                    received an AP degree in computer science and currently closing for a bachelor.<br><br>
+                    -experience- <br> 
+                    i had internships involved with game engines to support film making and others for creatings websites and applications on customer requests. <br> 
+                    and have also worked in freelance projects relating to Unity.<br>
                     <br>
                     here are some of the technologies i am most familiar with:
                 </p>
@@ -173,7 +176,7 @@
                 <div>
                     <div id="projects-bottom-tabs-first">
                         <div id="projects-bottom-tabs-left">
-                            <iframe id="youtube_player" width="700" height="400" src="https://www.youtube.com/embed/ZYBA6YggfUc" frameborder="0" allowfullscreen></iframe>
+                            <iframe id="youtube_player1" width="700" height="400" src="https://www.youtube.com/embed/ZYBA6YggfUc?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
                         </div>
                         <div id="projects-bottom-tabs-right">
                             <div id="projects-bottom-tabs-right-top">
@@ -196,7 +199,7 @@
                 <div>
                     <div id="projects-bottom-tabs-first">
                         <div id="projects-bottom-tabs-left">
-                            <iframe id="youtube_player" width="700" height="400" src="https://www.youtube.com/embed/rSuhEc4ZNq8?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+                            <iframe id="youtube_player2" width="700" height="400" src="https://www.youtube.com/embed/rSuhEc4ZNq8?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
                         </div>
                         <div id="projects-bottom-tabs-right">
                             <div id="projects-bottom-tabs-right-top">
@@ -396,7 +399,7 @@
                 <div>
                     <div id="projects-bottom-tabs-first">
                         <div id="projects-bottom-tabs-left">
-                            <iframe id="youtube_player" width="700" height="400" src="https://www.youtube.com/embed/NvQXEoYuBWs?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+                            <iframe id="youtube_player3" width="700" height="400" src="https://www.youtube.com/embed/NvQXEoYuBWs?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
                         </div>
                         <div id="projects-bottom-tabs-right">
                             <div id="projects-bottom-tabs-right-top">
@@ -459,6 +462,9 @@
                 </div>
             </div>
             <div id="projects-bottom-sub">
+                <button onclick="minusDivs(1)">
+                    PREVIOUS PROJECT
+                </button>
                 <button onclick="plusDivs(1)">
                     NEXT PROJECT
                 </button>
@@ -494,8 +500,14 @@
     var slideIndex = 1;
     showDivs(slideIndex);
     
+    function minusDivs(n) {
+      showDivs(slideIndex -= n);
+      pauseVideos();
+    }
+
     function plusDivs(n) {
       showDivs(slideIndex += n);
+      pauseVideos();
     }
     
     function showDivs(n) {
@@ -507,6 +519,18 @@
         x[i].style.display = "none";  
       }
       x[slideIndex-1].style.display = "block";  
+    }
+
+    function pauseVideos() {
+        var ysrc = document.getElementById("youtube_player1").src;    
+        var newsrc = ysrc.replace("&autoplay=1", "");
+        document.getElementById("youtube_player1").src = newsrc;
+        var ysrc = document.getElementById("youtube_player2").src;    
+        var newsrc = ysrc.replace("&autoplay=1", "");
+        document.getElementById("youtube_player2").src = newsrc;
+        var ysrc = document.getElementById("youtube_player3").src;    
+        var newsrc = ysrc.replace("&autoplay=1", "");
+        document.getElementById("youtube_player3").src = newsrc;
     }
     </script>
 
