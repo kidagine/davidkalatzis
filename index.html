@@ -502,12 +502,12 @@
     
     function minusDivs(n) {
       showDivs(slideIndex -= n);
-      pauseVideos();
+      pauseVideos(n);
     }
 
     function plusDivs(n) {
       showDivs(slideIndex += n);
-      pauseVideos();
+      pauseVideos(n);
     }
     
     function showDivs(n) {
@@ -521,16 +521,16 @@
       x[slideIndex-1].style.display = "block";  
     }
 
-    function pauseVideos() {
+    function pauseVideos(n) {
         var ysrc = document.getElementById("youtube_player1").src;    
-        var newsrc = ysrc.replace("&autoplay=1", "");
-        document.getElementById("youtube_player1").src = newsrc;
-        var ysrc = document.getElementById("youtube_player2").src;    
-        var newsrc = ysrc.replace("&autoplay=1", "");
-        document.getElementById("youtube_player2").src = newsrc;
-        var ysrc = document.getElementById("youtube_player3").src;    
-        var newsrc = ysrc.replace("&autoplay=1", "");
-        document.getElementById("youtube_player3").src = newsrc;
+            var newsrc = ysrc.replace("&autoplay=1", "");
+            document.getElementById("youtube_player1").src = newsrc;
+            var ysrc = document.getElementById("youtube_player2").src;    
+            var newsrc = ysrc.replace("&autoplay=1", "");
+            document.getElementById("youtube_player2").src = newsrc;
+            var ysrc = document.getElementById("youtube_player3").src;    
+            var newsrc = ysrc.replace("&autoplay=1", "");
+            document.getElementById("youtube_player3").src = newsrc;
     }
     </script>
 
