@@ -214,9 +214,11 @@ body {
 hr.section-line {
   margin-left: 50px;
   border-top: 1px solid #fff;
-  width: 500px;
 }
 
+#about-top hr.section-line {
+  width: 500px;
+}
 
 #about-bottom {
   display: flex;
@@ -252,6 +254,62 @@ hr.section-line {
   color: #fff;
 }
 /* About End */
+
+/* Contact Start */
+#contact {
+  height: 800px;
+  min-width: 1000px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 200;
+  font-size: 35px;
+  padding-top: 200px;
+}
+
+#contact-inner {
+  width: 950px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+#contact-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 500px;
+  font-weight: bold;
+}
+
+#contact-top img {
+  width: 96px;
+  height: 96px;
+}
+
+#contact-title {
+  padding-left: 25px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 72px;
+}
+
+#contact-top hr.section-line {
+  width: 400px;
+}
+
+#contact-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+  width: 950px;
+  font-size: 42px;
+}
+/* Contact End */
 
 /* Footer Start */
 #footer {
