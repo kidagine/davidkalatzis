@@ -172,17 +172,18 @@ body {
 /* General End */
 
 /* About Start */
-#about {
+#about {  
   height: 800px;
   min-width: 1000px;
   display: flex;
   align-items: center;
   color: #fff;
   font-weight: 200;
+  padding-top: 150px;
+  padding-bottom: 200px;
 }
 
 #about-inner {
-  padding-top: 200px;
   width: 950px;
   height: 500px;
   display: flex;
@@ -257,6 +258,80 @@ hr.section-line {
   color: #fff;
 }
 /* About End */
+
+/* Skills Start */
+#skills {
+  height: 100%;
+  min-width: 1000px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 200;
+  font-size: 42px;
+  padding-top: 200px;
+  padding-bottom: 1400px;
+}
+
+#skills-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 400px;
+  width: 950px;
+}
+
+#skills-bottom-details {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 950px;
+  font-size: 42px;
+  padding-bottom: 20px;
+}
+
+#skills-bottom-table {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 400px;
+  width: 950px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.skills-tasks{
+  margin-left: 0px;
+  padding-left: 50px;
+  line-height: 50px;
+}
+
+#skills-bottom-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.skills-main-label {
+  font-size: 42px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.skills-date {
+  font-size: 32px;
+}
+
+.skills-sub-label {
+  font-size: 42px;
+  padding-top: 10px;
+}
+/* Skills End */
+
 /* Projects Start */
 #projects {
   height: 800px;
@@ -306,16 +381,6 @@ hr.section-line {
   color: #000 !important;
 }
 
-#projects-bottom-tabs-first {
-  width: 950px;
-  height: 400px;
-  background-color: #fff;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  color: #000 !important;
-  }
-
 #projects-bottom-tabs-left {
   width: 700px;
   height: 400px;
@@ -325,7 +390,7 @@ hr.section-line {
 #projects-bottom-tabs-right {
   width: 250px;
   height: 400px;
-  background-color: #fff;
+  background-color: red;
   color: #000;
 }
 
@@ -350,22 +415,6 @@ hr.section-line {
 
 #mySlides{
   display: none;
-}
-
-#projects-bottom-sub button{
-  width: 200px;
-  height: 50px;
-  background-color: #000;
-  font-size: 16px;
-  color: #fff;
-  font-weight: bold;
-  border: 2px solid #fff;
-}
-
-#projects-bottom-sub button:hover{
-  cursor: pointer;
-  background-color: #fff;
-  color: #000;
 }
 
 #projects-bottom-tabs-right-bottom {
@@ -461,15 +510,14 @@ hr.section-line {
 /* Footer Start */
 #footer {
   width: 100%;
-  height: 125px;
   color: #000;
   text-align: center;
-  font-size: 16px;
+  font-size: 32px;
 }
 
 #footer p {
   color: #838573;
-  padding: 50px;
+  padding-top: 50px;
 }
 
 #footer p span {
