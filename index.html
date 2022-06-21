@@ -140,20 +140,42 @@
                 </div>
             </div>
             <div id="skills-bottom-details">
-                <p>
-                    <label class="skills-main-label">EXPERIENCE</label> <br><br>
-                    <a>intern developer @ Ampersand Associates</a><br>
-                    <a class="skills-date">jan 2022 - apr 2022</a><br><br>
-                </p>
-                <ul class="skills-tasks">
-                    <li>developing e-learning game for management</li>
-                    <li>developing tools to create pipeline for creating e-learning games</li>
-                    <li>developing xAPI registry for sharing identifiers</li>
-                </ul>
+                <label class="skills-main-label">EXPERIENCE</label>
+                <div>
+                    <button onclick="minusSkills(1)">
+                        PREVIOUS PROJECT
+                    </button>
+                    <a>Ampersand Associates</a><br>
+                    <button onclick="plusSkills(1)">
+                        PREVIOUS PROJECT
+                    </button>
+                </div>
+                <div class="mySkills">
+                    <p>
+                        <a>intern developer @ Ampersand Associates</a><br>
+                        <a class="skills-date">jan 2022 - apr 2022</a><br><br>
+                    </p>
+                    <ul class="skills-tasks">
+                        <li>developing e-learning game for management</li>
+                        <li>developing tools to create pipeline for creating e-learning games</li>
+                        <li>developing xAPI registry for sharing identifiers</li>
+                    </ul>
+                </div>
+                <div class="mySkills">
+                    <p>
+                        <a>ss</a><br>
+                        <a class="skills-date">jan 2022 - apr 2022</a><br><br>
+                    </p>
+                    <ul class="skills-tasks">
+                        <li>developing e-learning game for management</li>
+                        <li>developing tools to create pipeline for creating e-learning games</li>
+                        <li>developing xAPI registry for sharing identifiers</li>
+                    </ul>
+                </div>
             </div>
             <div id="skills-bottom-details">
+                <label class="skills-main-label">EDUCATION</label>
                 <p>
-                    <label class="skills-main-label">EDUCATION</label> <br><br>
                     bachelor degree in computer science.<br>
                 </p>
             </div>
@@ -540,6 +562,8 @@
 <script src="main.js"> </script>
 <script>
     var slideIndex = 1;
+    var skillIndex = 1;
+    showSkills(skillIndex);
     showDivs(slideIndex);
 
     function minusDivs(n) {
@@ -550,6 +574,27 @@
     function plusDivs(n) {
         showDivs(slideIndex += n);
         pauseVideos(n);
+    }
+
+    function minusSkills(n) {
+        showSkills(skillIndex -= n);
+        pauseVideos(n);
+    }
+
+    function plusSkills(n) {
+        showSkills(skillIndex += n);
+        pauseVideos(n);
+    }
+
+    function showSkills(n) {
+        var i;
+        var x = document.getElementsByClassName("mySkills");
+        if (n > x.length) { skillIndex = 1 }
+        if (n < 1) { skillIndex = x.length }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[skillIndex - 1].style.display = "block";
     }
 
     function showDivs(n) {
