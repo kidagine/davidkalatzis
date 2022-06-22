@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>David Kalatzis | Game Developer</title>
+    <title>David Kalatzis</title>
     <link rel="icon" href="Resources/Images/KiddoLogo.svg" sizes="16x16">
     <link rel="stylesheet" type="text/css" href="Css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,600,700&display=swap" rel="stylesheet">
@@ -17,33 +17,33 @@
         <div id="inner-navbar-middle">
             <div id="navbar-item">
                 <a id="navbar-item-image" href="#about">
-                    <li><img src="Resources/Images/AboutIcon.svg" width="32" height="32"
-                            onmouseover="this.src='Resources/Images/AboutIconHover.svg'"
-                            onmouseout="this.src='Resources/Images/AboutIcon.svg'"></li>
+                    <li><img src="Resources/Images/Icons/About.png" width="32" height="32"
+                            onmouseover="this.src='Resources/Images/Icons/AboutActive.png'"
+                            onmouseout="this.src='Resources/Images/Icons/About.png'"></li>
                 </a>
                 <label id="navbar-item-label">About</label>
             </div>
             <div id="navbar-item">
                 <a id="navbar-item-image" href="#skills">
-                    <li><img src="Resources/Images/SkillsIcon.svg" width="32" height="32"
-                            onmouseover="this.src='Resources/Images/SkillsIconHover.svg'"
-                            onmouseout="this.src='Resources/Images/SkillsIcon.svg'"></li>
+                    <li><img src="Resources/Images/Icons/Skills.png" width="32" height="32"
+                            onmouseover="this.src='Resources/Images/Icons/SkillsActive.png'"
+                            onmouseout="this.src='Resources/Images/Icons/Skills.png'"></li>
                 </a>
                 <label id="navbar-item-label">Skills</label>
             </div>
             <div id="navbar-item">
                 <a id="navbar-item-image" href="#projects">
-                    <li><img src="Resources/Images/ProjectsIcon.svg" width="32" height="32"
-                            onmouseover="this.src='Resources/Images/ProjectsIconHover.svg'"
-                            onmouseout="this.src='Resources/Images/ProjectsIcon.svg'"></li>
+                    <li><img src="Resources/Images/Icons/Projects.png" width="32" height="32"
+                            onmouseover="this.src='Resources/Images/Icons/ProjectsActive.png'"
+                            onmouseout="this.src='Resources/Images/Icons/Projects.png'"></li>
                 </a>
                 <label id="navbar-item-label">Projects</label>
             </div>
             <div id="navbar-item">
                 <a id="navbar-item-image" href="#footer">
-                    <li><img src="Resources/Images/MailIcon.svg" width="32" height="32"
-                            onmouseover="this.src='Resources/Images/MailIconHover.svg'"
-                            onmouseout="this.src='Resources/Images/MailIcon.svg'"></li>
+                    <li><img src="Resources/Images/Icons/Contact.png" width="32" height="32"
+                            onmouseover="this.src='Resources/Images/Icons/ContactActive.png'"
+                            onmouseout="this.src='Resources/Images/Icons/Contact.png'"></li>
                 </a>
                 <label id="navbar-item-label">Contact</label>
             </div>
@@ -73,25 +73,29 @@
 <div class="fullscreen-video-wrap">
     <video src="Resources/Videos/test.mp4" autoplay="true" loop="true" muted="true"></video>
 </div>
+<!-- SECTIONS -->
 
-<!-- Overview -->
-<div id="about">
-    <div id="about-inner">
-        <div id="about-top">
-            <img src="Resources/Images/AboutIconHover.svg" width="48" height="48">
-            <p id="about-title">About</p>
-        </div>
-        <div id="about-bottom">
-            <div id="about-bottom-details">
-                <p>i'm <span>David Kalatzis</span>, a developer <br> focused on game development
-                    <br>coding daily to create mechanics<br> and establish new interesting ideas.
-                </p>
+<div class="sections">
+    <!-- About -->
+    <<div id="about">
+        <div id="about-inner">
+            <div id="about-top">
+                <img src="Resources/Images/Icons/AboutActive.png" width="48" height="48">
+                <p id="about-title">About</p>
+                <hr class="section-line">
             </div>
-            <div id="about-bottom-image">
-                <img id="about-my-face" src="Resources/Images/MyFace2.png" alt="Smiley face" height="210" width="210">
+            <div id="about-bottom">
+                <div id="about-bottom-image">
+                    <img id="about-my-face" src="Resources/Images/MyFace2.png" alt="Smiley face" height="420"
+                        width="420">
+                </div>
+                <div id="about-bottom-details">
+                    <p>i'm <span>David Kalatzis</span>, a developer <br> focused on game development
+                        <br>coding daily to create mechanics<br> and establish new interesting ideas.
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
 </div>
 <!-- Skills -->
 <div id="skills">
@@ -99,23 +103,13 @@
         <div id="about-top">
             <img src="Resources/Images/SkillsIconHover.svg" width="48" height="48">
             <p id="about-title">Skills</p>
+            <hr class="section-line">
         </div>
         <div id="skills-bottom">
             <div id="skills-bottom-details">
                 <p>
                     i've been coding since i was 16 developing small games, working everyday developing countless
                     projects and progressing in creating a big game idea.<br>
-                    <br>
-                    <label class="skills-main-label">EDUCATION</label> <br>
-                    bachelor degree in computer science.<br><br>
-                    <label class="skills-main-label">EXPERIENCE</label> <br>
-                    - software developer intern at Ampersand Associates:<br>
-                    developing learning games and tools to improve the pipeline using Unity.<br>
-                    - software developer intern at Amunet Studio:<br>
-                    developing tools for film making using Unity and Unreal.<br>
-                    - software developer intern at Grumsen Development:<br>
-                    developing a website for a company to track their orders using React.<br>
-                    - worked on a couple freelance projects using Unity.<br>
                     <br>
                     here are some of the technologies i am most familiar with:
                 </p>
@@ -145,43 +139,113 @@
                     <label class="skills-sub-label">node.js</label>
                 </div>
             </div>
+            <div id="skills-bottom-details">
+                <label class="skills-main-label">EDUCATION</label>
+                <p>
+                    bachelor degree in computer science.<br>
+                </p>
+            </div>
+            <div id="skills-bottom-details">
+                <label class="skills-main-label">EXPERIENCE</label>
+                <div class="mySkills">
+                    <div class="skills-slide">
+                        <button class="skills-slide-button" onclick="minusSkills(1)">
+                            previous
+                        </button>
+                        <a>Ampersand</a>
+                        <button class="skills-slide-button" onclick="plusSkills(1)">
+                            next
+                        </button>
+                    </div>
+                    <p>
+                        <a>intern developer @ Ampersand Associates</a><br>
+                        <a class="skills-date">jan 2022 - apr 2022</a><br><br>
+                    </p>
+                    <ul class="skills-tasks">
+                        <li>developing e-learning game for management.</li>
+                        <li>developing tools to create pipeline for creating e-learning games.</li>
+                        <li>developing xAPI registry for sharing identifiers.</li>
+                    </ul>
+                </div>
+                <div class="mySkills">
+                    <div class="skills-slide">
+                        <button class="skills-slide-button" onclick="minusSkills(1)">
+                            previous
+                        </button>
+                        <a>Oneiros</a>
+                        <button class="skills-slide-button" onclick="plusSkills(1)">
+                            next
+                        </button>
+                    </div>
+                    <p>
+                        <a>freelance developer @ Oneiros</a><br>
+                        <a class="skills-date">jul 2022 - aug 2021</a><br><br>
+                    </p>
+                    <ul class="skills-tasks">
+                        <li>developing desktop version for a furniture viewing application.</li>
+                    </ul>
+                </div>
+                <div class="mySkills">
+                    <div class="skills-slide">
+                        <button class="skills-slide-button" onclick="minusSkills(1)">
+                            previous
+                        </button>
+                        <a>Grumsen</a>
+                        <button class="skills-slide-button" onclick="plusSkills(1)">
+                            next
+                        </button>
+                    </div>
+                    <p>
+                        <a>intern developer @ Grumsen Development</a><br>
+                        <a class="skills-date">oct 2020 - dec 2020</a><br><br>
+                    </p>
+                    <ul class="skills-tasks">
+                        <li>developing web site for tracking orders.</li>
+                        <li>UI & UX designing.</li>
+                    </ul>
+                </div>
+                <div class="mySkills">
+                    <div class="skills-slide">
+                        <button class="skills-slide-button" onclick="minusSkills(1)">
+                            previous
+                        </button>
+                        <a>Amunet</a>
+                        <button class="skills-slide-button" onclick="plusSkills(1)">
+                            next
+                        </button>
+                    </div>
+                    <p>
+                        <a>intern developer @ Amunet Studio</a><br>
+                        <a class="skills-date">aug 2020 - oct 2020</a><br><br>
+                    </p>
+                    <ul class="skills-tasks">
+                        <li>developing tools for virtual film making.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 <!-- Projects -->
 <div id="projects">
-    <div id="about-inner">
-        <div id="about-top">
-            <img src="Resources/Images/ProjectsIconHover.svg" width="48" height="48">
+    <div id="projects-inner">
+        <div id="projects-top">
+            <img src="Resources/Images/Icons/ProjectsActive.png" width="48" height="48">
             <p id="about-title">Projects</p>
+            <hr class="section-line">
         </div>
         <div id="project-bottom">
-
             <div class="mySlides">
                 <div>
                     <div id="projects-bottom-tabs-first">
                         <div id="projects-bottom-tabs-left">
-                            <iframe id="youtube_player1" width="700" height="400"
+                            <iframe id="youtube_player1" width="960" height="600"
                                 src="https://www.youtube.com/embed/ZYBA6YggfUc?enablejsapi=1" frameborder="0"
                                 allowfullscreen></iframe>
-                        </div>
-                        <div id="projects-bottom-tabs-right">
-                            <div id="projects-bottom-tabs-right-top">
-                                <label>Darklings</label>
-                            </div>
-                            <div id="projects-bottom-tabs-right-middle">
-                                <p>a 2D fighting game on the Web that I update periodically.</p>
-                            </div>
-                            <div id="projects-bottom-tabs-right-bottom">
-                                <a href="https://github.com/kidagine/Darklings-FightingGame" target="_blank">
-                                    github project.
-                                </a>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="mySlides">
                 <div>
                     <div id="projects-bottom-tabs-first">
@@ -501,14 +565,14 @@
                     </div>
                 </div>
             </div>
-            <div id="projects-bottom-sub">
+            <!-- <div id="projects-bottom-sub">
                 <button onclick="minusDivs(1)">
                     PREVIOUS PROJECT
                 </button>
                 <button onclick="plusDivs(1)">
                     NEXT PROJECT
                 </button>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
@@ -516,8 +580,9 @@
 <div id="contact">
     <div id="contact-inner">
         <div id="contact-top">
-            <img src="Resources/Images/MailIconHover.svg" width="48" height="48">
+            <img src="Resources/Images/Icons/ContactActive.png" width="48" height="48">
             <p id="contact-title">Contact</p>
+            <hr class="section-line">
         </div>
         <div id="contact-bottom">
             <label>have a question or want to work together?</label>
@@ -530,15 +595,19 @@
         </div>
     </div>
 </div>
+</div>
+
 <!-- Footer -->
 <footer id="footer">
-    <p><span>&copy; 2021</span> David Kalatzis <br>
+    <p><span>&copy; 2022</span> David Kalatzis <br>
         <3<p />
 </footer>
 <!-- Scripts -->
 <script src="main.js"> </script>
 <script>
     var slideIndex = 1;
+    var skillIndex = 1;
+    showSkills(skillIndex);
     showDivs(slideIndex);
 
     function minusDivs(n) {
@@ -549,6 +618,27 @@
     function plusDivs(n) {
         showDivs(slideIndex += n);
         pauseVideos(n);
+    }
+
+    function minusSkills(n) {
+        showSkills(skillIndex -= n);
+        pauseVideos(n);
+    }
+
+    function plusSkills(n) {
+        showSkills(skillIndex += n);
+        pauseVideos(n);
+    }
+
+    function showSkills(n) {
+        var i;
+        var x = document.getElementsByClassName("mySkills");
+        if (n > x.length) { skillIndex = 1 }
+        if (n < 1) { skillIndex = x.length }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[skillIndex - 1].style.display = "block";
     }
 
     function showDivs(n) {
