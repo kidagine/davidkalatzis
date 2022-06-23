@@ -198,6 +198,7 @@ body {
   flex-direction: row;
   align-items: center;
   height: 500px;
+  width: 950px;
   font-weight: bold;
 }
 
@@ -226,7 +227,7 @@ hr.section-line {
 }
 
 #about-top hr.section-line {
-  width: 500px;
+  width: 80%;
 }
 
 #about-bottom {
@@ -253,6 +254,35 @@ hr.section-line {
 #about-bottom-image {
   height: 420px;
   width: 420px;
+}
+
+#about-bottom-details-bottom-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#about-github{
+  content: url("../Resources/Images/GithubLogo.svg");
+}
+
+#about-linkedin{
+  content: url("../Resources/Images/LinkedinLogo.svg");
+}
+
+#about-bottom-details-bottom-info:hover {
+  text-decoration: underline;
+}
+
+#about-bottom-details-bottom-info:hover #about-github{
+  content: url("../Resources/Images/GithubLogoHover.svg");
+}
+
+
+#about-bottom-details-bottom-info:hover #about-linkedin{
+  content: url("../Resources/Images/LinkedinLogoHover.svg");
 }
 
 #about-my-face {
