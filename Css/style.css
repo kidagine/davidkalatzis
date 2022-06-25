@@ -634,14 +634,13 @@ hr.section-line {
 /* Footer End */
 
 /* MEDIA */
-@media (min-width:620px) {
-  #inner-navbar-bottom {
-    visibility: hidden;
-  }
-}
 
 @media (min-width:780px) {
   #inner-navbar-bottom {
+    visibility: hidden;
+  }
+
+  #inner-navbar-middle{
     visibility: visible;
   }
 }
