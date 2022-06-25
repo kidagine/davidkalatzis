@@ -265,11 +265,11 @@ hr.section-line {
 }
 
 #about-github{
-  content: url("../Resources/Images/GithubLogo.svg");
+  content: url("../Resources/Images/Icons/GithubLogo.svg");
 }
 
 #about-linkedin{
-  content: url("../Resources/Images/LinkedinLogo.svg");
+  content: url("../Resources/Images/Icons/LinkedinLogo.svg");
 }
 
 #about-bottom-details-bottom-info:hover {
@@ -277,12 +277,12 @@ hr.section-line {
 }
 
 #about-bottom-details-bottom-info:hover #about-github{
-  content: url("../Resources/Images/GithubLogoHover.svg");
+  content: url("../Resources/Images/Icons/GithubLogoHover.svg");
 }
 
 
 #about-bottom-details-bottom-info:hover #about-linkedin{
-  content: url("../Resources/Images/LinkedinLogoHover.svg");
+  content: url("../Resources/Images/Icons/LinkedinLogoHover.svg");
 }
 
 #about-my-face {
@@ -823,7 +823,8 @@ hr.section-line {
    font-size: 8px;
    font-weight: bold;
    text-transform: uppercase;
-   visibility:hidden
+   visibility:hidden;
+   font-size: 16px;
  }
 
  #about {  
