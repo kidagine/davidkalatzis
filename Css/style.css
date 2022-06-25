@@ -146,7 +146,7 @@ body {
 
 #navbar-item-label {
   padding-top: 5px;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
   visibility:hidden
@@ -635,16 +635,6 @@ hr.section-line {
 
 /* MEDIA */
 
-@media (min-width:780px) {
-  #inner-navbar-bottom {
-    visibility: hidden;
-  }
-
-  #inner-navbar-middle{
-    visibility: visible;
-  }
-}
-
 @media (min-width:1112px) {
   #navbar {
     width: 100%;
@@ -732,13 +722,6 @@ hr.section-line {
     padding-top: 0px;
     padding-bottom: 50px;
   }
-  #navbar-item-label {
-    padding-top: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-    visibility:hidden
-  }
 }
 
 @media (min-width:1281px) {
@@ -820,11 +803,10 @@ hr.section-line {
  
  #navbar-item-label {
    padding-top: 5px;
-   font-size: 8px;
+   font-size: 12px;
    font-weight: bold;
    text-transform: uppercase;
    visibility:hidden;
-   font-size: 16px;
  }
 
  #about {  
