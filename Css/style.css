@@ -903,7 +903,7 @@ hr.section-line {
 
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
+#se-pre-con {
 	position: fixed;
 	left: 0px;
 	top: 0px;
@@ -914,6 +914,6 @@ hr.section-line {
 	background: url("../Resources/Videos/Loading.gif") center no-repeat #000;
 }
 
-.se-pre-con a {
+#se-pre-con a {
 	font-size: 24px;
 }
