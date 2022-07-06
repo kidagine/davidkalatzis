@@ -73,8 +73,8 @@
 </div>
 
 <!-- Video -->
-<div class="fullscreen-video-wrap">
-    <video src="Resources/Videos/test.mp4" autoplay="true" loop="true" muted="true"></video>
+<div class="fullscreen-video-wrap" rel="preload">
+    <video src="Resources/Videos/test.mp4" autoplay="true" loop="true" muted="true" rel="preload"></video>
 </div>
 <!-- SECTIONS -->
 
@@ -921,23 +921,15 @@
         var myDiv = document.getElementById("se-pre-con"),
 
             show = function () {
-                myDiv.style.display = "block";
-                setTimeout(hide, 3000); // 5 seconds
+                setTimeout(hide, 2500);
             },
 
             hide = function () {
-                myDiv.style.display = "none";
+                $("#se-pre-con").fadeOut("slow");;
             };
 
         show();
     })();
-
-    //paste this code under the head tag or in a separate js file.
-    // Wait for window load
-    // $(window).load(function () {
-    //     // Animate loader off screen
-    //     $(".se-pre-con").fadeOut("slow");;
-    // });
 </script>
 
 </body>
