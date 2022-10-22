@@ -221,6 +221,13 @@ body {
   font-size: 72px;
 }
 
+#project-title {
+  padding-left: 25px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 42px;
+}
+
 hr.section-line {
   margin-left: 50px;
   border-top: 2px solid #fff;
@@ -409,7 +416,7 @@ hr.section-line {
 
 /* Projects Start */
 #projects {
-  height: 800px;
+  height: 1000px;
   padding-top: 200px;
   min-width: 1000px;
   display: flex;
@@ -821,7 +828,9 @@ hr.section-line {
  
  #about-title {
    font-size: 42px;
- }
+ } 
+ 
+
 
  #about-bottom {
    flex-direction: row;
