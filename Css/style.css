@@ -386,13 +386,13 @@ hr.section-line {
 .skills-tasks {
   margin-left: 0px;
   padding-left: 50px;
-  line-height: 40px;
+  line-height: 34px;
   list-style-type: upper-roman;
 }
 
 .skills-tasks li {
   list-style-type: circle;
-  padding-top: 20px;
+  padding-top: 18px;
 }
 
 #skills-bottom-row {
